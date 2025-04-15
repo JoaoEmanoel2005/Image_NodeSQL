@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    foto_perfil LONGBLOB,
+    data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
