@@ -5,7 +5,7 @@ Neste repositoro, temos uma configuração basica de inserção e recuperação 
 
 para utilizar, abra o phpmyadmin do xampp e crie um banco com nome "seubanco", e dentro dele rode o script dentro do arquivo tabela.txt. Inicialize o apache e o MySQL do Xampp
 
-logo em seguida baixe o node modules com npm install
+logo em seguida baixe o node modules com npm install express multer mysql2 cors
 
 inicie o projeto com node server.js
 
